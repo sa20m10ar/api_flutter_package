@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'album_model.dart';
+import 'screen2.dart';
 import 'service.dart';
 
 void main() => runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: Screen2(),
     );
   }
 }
